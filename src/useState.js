@@ -12,7 +12,7 @@ function UseState(){
         <h1>useState</h1>
         <ul>
           {name.map((name)=>(
-            <li>{name}</li>
+            <li key={name}>{name}</li>
           ))}
         </ul>
         <input type="text" value={list} onChange={(e)=>{setList(e.target.value)}}/>

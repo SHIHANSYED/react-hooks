@@ -1,5 +1,6 @@
 
 import './App.css';
+import { UseEffect } from './UseEffect';
 import { UseReducer } from './UseReducer';
 import UseState from './UseState';
 
@@ -12,7 +13,8 @@ return(
     <hr/>
    <UseReducer/>
    <hr/>
-
+   <UseEffect/>
+   <hr/>
   </div>
  
  
