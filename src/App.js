@@ -1,12 +1,20 @@
 
 import './App.css';
-import Names from './useState';
+import { UseReducer } from './UseReducer';
+import UseState from './UseState';
 
 
 function App() {
 
 return(
- <Names/>
+  <div>
+    <UseState/>
+    <hr/>
+   <UseReducer/>
+   <hr/>
+
+  </div>
+ 
  
 )
 

@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 
-function Names(){
+function UseState(){
     const[name,setName]=useState(["raju","radha","mayavi"])
     const[list,setList]=useState("")
     const addName=()=>{
@@ -9,6 +9,7 @@ function Names(){
     }
     return(
       <div>
+        <h1>useState</h1>
         <ul>
           {name.map((name)=>(
             <li>{name}</li>
@@ -20,4 +21,4 @@ function Names(){
     )
   }
 
-  export default Names;
+  export default UseState;
